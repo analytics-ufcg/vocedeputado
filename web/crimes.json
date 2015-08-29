@@ -1,0 +1,1466 @@
+[
+  {
+    "lat":-7.2091422,
+    "lon":-35.9363779,
+    "count":1,
+    "RUA":"RUA SANTA TEREZINHA"
+  },
+  {
+    "lat":-7.2199997,
+    "lon":-35.9153527,
+    "count":1,
+    "RUA":"RUA CARLOS ALBERTO SOUZA "
+  },
+  {
+    "lat":-7.2223667,
+    "lon":-35.8734667,
+    "count":1,
+    "RUA":"RUA QUINTINO PAULINO DA COSTA"
+  },
+  {
+    "lat":-7.25708,
+    "lon":-35.9097373,
+    "count":1,
+    "RUA":"AV JUSCELINO KUBITSCHEK "
+  },
+  {
+    "lat":-7.2385524,
+    "lon":-35.8926909,
+    "count":1,
+    "RUA":"RUA PEDRO SERAO"
+  },
+  {
+    "lat":-7.2175764,
+    "lon":-35.8716472,
+    "count":4,
+    "RUA":"RUA SANTO ANTONIO "
+  },
+  {
+    "lat":-7.2225536,
+    "lon":-35.8977286,
+    "count":3,
+    "RUA":"RUA DUQUE DE CAXIAS"
+  },
+  {
+    "lat":-7.2144979,
+    "lon":-35.9016135,
+    "count":1,
+    "RUA":"RUA NATANAEL BELO "
+  },
+  {
+    "lat":-7.2223667,
+    "lon":-35.8734667,
+    "count":1,
+    "RUA":"RUA PADRE CORNÉLIO"
+  },
+  {
+    "lat":-7.2217437,
+    "lon":-35.9179453,
+    "count":1,
+    "RUA":"RUA MANOEL GUIMARAES MORAIS "
+  },
+  {
+    "lat":-7.2051179,
+    "lon":-35.9005047,
+    "count":1,
+    "RUA":"RUA ANTONIO SOARES DA SILVA"
+  },
+  {
+    "lat":-7.2433129,
+    "lon":-35.9233968,
+    "count":1,
+    "RUA":"RUA JAMILA ABRAÃO JORGE"
+  },
+  {
+    "lat":-7.2223667,
+    "lon":-35.8734667,
+    "count":1,
+    "RUA":"RUA JOÃO FAZIO DE ALMEIDA"
+  },
+  {
+    "lat":-7.2223667,
+    "lon":-35.8734667,
+    "count":1,
+    "RUA":"RUA CRISELDA"
+  },
+  {
+    "lat":-7.2421834,
+    "lon":-35.897925,
+    "count":1,
+    "RUA":"RUA PEDRO BRASIL "
+  },
+  {
+    "lat":-7.267808,
+    "lon":-35.9189876,
+    "count":1,
+    "RUA":"RUA CÁSSIO FIGUEREDO"
+  },
+  {
+    "lat":-7.2059804,
+    "lon":-35.8962939,
+    "count":1,
+    "RUA":"RUA POBRO CÂMARA "
+  },
+  {
+    "lat":-7.2115693,
+    "lon":-35.8549486,
+    "count":1,
+    "RUA":"RUA JOÃO AMARO"
+  },
+  {
+    "lat":-7.2223667,
+    "lon":-35.8734667,
+    "count":2,
+    "RUA":"RUA ODON SEVERIANO DE SOUZA"
+  },
+  {
+    "lat":-7.2198289,
+    "lon":-35.92153,
+    "count":1,
+    "RUA":"RUA PACÍFICO LECARIÃO DE TRINDADE"
+  },
+  {
+    "lat":-7.2302734,
+    "lon":-35.9005177,
+    "count":1,
+    "RUA":"RUA DA REPUBLICA"
+  },
+  {
+    "lat":-7.2298794,
+    "lon":-35.9279763,
+    "count":1,
+    "RUA":"RUA CAICO"
+  },
+  {
+    "lat":-7.2324008,
+    "lon":-35.8912715,
+    "count":2,
+    "RUA":"RUA RIO BRANCO"
+  },
+  {
+    "lat":-7.2223667,
+    "lon":-35.8734667,
+    "count":1,
+    "RUA":"RUA MANUEL RAIMUNDO DE SOUSA"
+  },
+  {
+    "lat":-7.2212517,
+    "lon":-35.8836956,
+    "count":1,
+    "RUA":"RUA MAJOR JUVINO DO DÓ"
+  },
+  {
+    "lat":-7.2274679,
+    "lon":-35.8701935,
+    "count":1,
+    "RUA":"RUA SILVA JARDIM "
+  },
+  {
+    "lat":-7.2223667,
+    "lon":-35.8734667,
+    "count":1,
+    "RUA":"RUA ISOLDA BARROS TORQUATO"
+  },
+  {
+    "lat":-7.2483051,
+    "lon":-35.9289759,
+    "count":2,
+    "RUA":"RUA NEREU GUSMÃO BASTOS"
+  },
+  {
+    "lat":-7.2525188,
+    "lon":-35.9004089,
+    "count":1,
+    "RUA":"RUA ANTONIO FIGUEIREDO AGRA "
+  },
+  {
+    "lat":-7.2208531,
+    "lon":-35.8686463,
+    "count":1,
+    "RUA":"RUA SGT EDSON SALES "
+  },
+  {
+    "lat":-7.2175764,
+    "lon":-35.8716472,
+    "count":2,
+    "RUA":"RUA SANTO ANTONIO"
+  },
+  {
+    "lat":-7.2223667,
+    "lon":-35.8734667,
+    "count":1,
+    "RUA":"RUA JUAZEIRO"
+  },
+  {
+    "lat":-7.2221776,
+    "lon":-35.9102052,
+    "count":1,
+    "RUA":"RUA SÃO VICENTE"
+  },
+  {
+    "lat":-7.2604071,
+    "lon":-35.911586,
+    "count":1,
+    "RUA":"TV JUSCELINO KUBISCHEK"
+  },
+  {
+    "lat":-7.2210328,
+    "lon":-35.9207898,
+    "count":1,
+    "RUA":"RUA DAMIAO JOSE RODRIGUES "
+  },
+  {
+    "lat":-7.2199041,
+    "lon":-35.8770149,
+    "count":1,
+    "RUA":"RUA MANOEL P. DE ARAUJO"
+  },
+  {
+    "lat":-7.2223667,
+    "lon":-35.8734667,
+    "count":1,
+    "RUA":"AV CANAL DO PRADO"
+  },
+  {
+    "lat":-7.2027714,
+    "lon":-35.8825859,
+    "count":1,
+    "RUA":"RUA MANOEL ELIAS DE CASTRO "
+  },
+  {
+    "lat":-7.245857,
+    "lon":-35.8778745,
+    "count":1,
+    "RUA":"RUA JOÃO PESSOA"
+  },
+  {
+    "lat":-7.2202351,
+    "lon":-35.8626979,
+    "count":1,
+    "RUA":"RUA JOSE ARANHA"
+  },
+  {
+    "lat":-7.2149224,
+    "lon":-35.883869,
+    "count":1,
+    "RUA":"RUA JOAO ALVES DE OLIVEIRA "
+  },
+  {
+    "lat":-7.2223667,
+    "lon":-35.8734667,
+    "count":1,
+    "RUA":"RUA ORESTES DUARTE DE ARAÚJO"
+  },
+  {
+    "lat":-7.243379,
+    "lon":-35.8841384,
+    "count":1,
+    "RUA":"RODOVIA BR 104"
+  },
+  {
+    "lat":-7.269912,
+    "lon":-35.8971647,
+    "count":2,
+    "RUA":"AV BRASILIA"
+  },
+  {
+    "lat":-7.245857,
+    "lon":-35.8778745,
+    "count":1,
+    "RUA":"RUA JOAO PESSOA"
+  },
+  {
+    "lat":-7.2266612,
+    "lon":-35.8927892,
+    "count":1,
+    "RUA":"RUA DOM PEDRO I"
+  },
+  {
+    "lat":-7.247401,
+    "lon":-35.8977479,
+    "count":1,
+    "RUA":"RUA ERNESTO DO RÊGO "
+  },
+  {
+    "lat":-7.2196143,
+    "lon":-35.8680883,
+    "count":2,
+    "RUA":"RUA MAMEDE MOISES RAIA"
+  },
+  {
+    "lat":-7.2223667,
+    "lon":-35.8734667,
+    "count":1,
+    "RUA":"RUA IREMAR VILARIM "
+  },
+  {
+    "lat":-7.2294948,
+    "lon":-35.8907541,
+    "count":1,
+    "RUA":"RUA MINAS GERAIS "
+  },
+  {
+    "lat":-7.2179827,
+    "lon":-35.883646,
+    "count":1,
+    "RUA":"RUA MACIEL PINHEIRO"
+  },
+  {
+    "lat":-7.2153612,
+    "lon":-35.8729548,
+    "count":1,
+    "RUA":"RUA SANTA CECILIA"
+  },
+  {
+    "lat":-7.2161225,
+    "lon":-35.8725912,
+    "count":1,
+    "RUA":"RUA ARRUDA CAMARA"
+  },
+  {
+    "lat":-7.2275983,
+    "lon":-35.877002,
+    "count":1,
+    "RUA":"AV ELPIDIO DE ALMEIDA"
+  },
+  {
+    "lat":-7.2200849,
+    "lon":-35.8812143,
+    "count":1,
+    "RUA":"RUA JOÃO LOURENÇO PORTO"
+  },
+  {
+    "lat":-7.2427429,
+    "lon":-35.871639,
+    "count":1,
+    "RUA":"RUA GERALDO PORTO "
+  },
+  {
+    "lat":-7.2109309,
+    "lon":-35.8810669,
+    "count":1,
+    "RUA":"RUA JOSE DO O"
+  },
+  {
+    "lat":-7.2317842,
+    "lon":-35.8785139,
+    "count":1,
+    "RUA":"RUA CUREMAS"
+  },
+  {
+    "lat":-7.2465473,
+    "lon":-35.8947422,
+    "count":1,
+    "RUA":"RUA CASSIANO PEREIRA"
+  },
+  {
+    "lat":-7.2202454,
+    "lon":-35.8941189,
+    "count":1,
+    "RUA":"RUA ANTENOR NAVARRO"
+  },
+  {
+    "lat":-7.2229897,
+    "lon":-35.9135593,
+    "count":1,
+    "RUA":"RUA SANTA BARBARA"
+  },
+  {
+    "lat":-7.2228389,
+    "lon":-35.8842263,
+    "count":1,
+    "RUA":"RUA IRINEU JOFILLY"
+  },
+  {
+    "lat":-7.2256808,
+    "lon":-35.932694,
+    "count":1,
+    "RUA":"RUA LUIZ FLORENTINO DE SOUSA"
+  },
+  {
+    "lat":-7.2157729,
+    "lon":-35.8698447,
+    "count":1,
+    "RUA":"RUA NEUZA BORBOREMA"
+  },
+  {
+    "lat":-7.2483569,
+    "lon":-35.9284381,
+    "count":1,
+    "RUA":"RUA ALCIDES AVELINO DE MEDEIROS"
+  },
+  {
+    "lat":-7.2294646,
+    "lon":-35.9110185,
+    "count":2,
+    "RUA":"RUA ALMEIDA BARRETO"
+  },
+  {
+    "lat":-7.2604071,
+    "lon":-35.911586,
+    "count":1,
+    "RUA":"RUA JUSCELINO KUBSTECHEK "
+  },
+  {
+    "lat":-7.1983681,
+    "lon":-35.8783507,
+    "count":1,
+    "RUA":"RUA DOUTOR VASCONCELOS "
+  },
+  {
+    "lat":-7.2447102,
+    "lon":-35.9080866,
+    "count":1,
+    "RUA":"RUA ANTONIO JOAQUIM DE CARVALHO "
+  },
+  {
+    "lat":-7.2383857,
+    "lon":-35.886042,
+    "count":3,
+    "RUA":"RUA VINTE E QUATRO DE MAIO "
+  },
+  {
+    "lat":-7.24003,
+    "lon":-35.9086563,
+    "count":1,
+    "RUA":"RUA HENRIQUE SALES MONTEIRO"
+  },
+  {
+    "lat":-7.2049314,
+    "lon":-35.9503141,
+    "count":1,
+    "RUA":"RUA MANOEL MOTA"
+  },
+  {
+    "lat":-7.2229412,
+    "lon":-35.9068041,
+    "count":1,
+    "RUA":"RUA SANTA LUZIA"
+  },
+  {
+    "lat":-7.2146094,
+    "lon":-35.8733014,
+    "count":16,
+    "RUA":"AV FLORIANO PEIXOTO"
+  },
+  {
+    "lat":-7.2139712,
+    "lon":-35.8697107,
+    "count":1,
+    "RUA":"RUA ORESTES FIALHO DE ARAUJO"
+  },
+  {
+    "lat":-7.2217283,
+    "lon":-35.9163941,
+    "count":1,
+    "RUA":"RUA APRIGIO VELOSO "
+  },
+  {
+    "lat":-7.2312441,
+    "lon":-35.9210905,
+    "count":1,
+    "RUA":"RUA DOUTOR EDUARDO CORREIA DE LIMA"
+  },
+  {
+    "lat":-7.2365463,
+    "lon":-35.9028056,
+    "count":2,
+    "RUA":"RUA COSTA E SILVA"
+  },
+  {
+    "lat":-7.2151451,
+    "lon":-35.8811232,
+    "count":1,
+    "RUA":"RUA JANUNCIO FERREIRA "
+  },
+  {
+    "lat":-7.2557331,
+    "lon":-35.9229711,
+    "count":1,
+    "RUA":"RUA SEVERINO FELIPE DE SOUZA"
+  },
+  {
+    "lat":-7.2294633,
+    "lon":-35.8711409,
+    "count":1,
+    "RUA":"RUA AMELIA VIEIRA "
+  },
+  {
+    "lat":-7.2223667,
+    "lon":-35.8734667,
+    "count":1,
+    "RUA":"RUA RICARDO VAGNER DA SILVA PAZ"
+  },
+  {
+    "lat":-7.2461142,
+    "lon":-35.9031862,
+    "count":1,
+    "RUA":"RUA ZEZINHO UCHOA"
+  },
+  {
+    "lat":-7.2338966,
+    "lon":-35.8729918,
+    "count":1,
+    "RUA":"RUA OTACILIO NEPOMUCENO"
+  },
+  {
+    "lat":-7.2056033,
+    "lon":-35.9038021,
+    "count":1,
+    "RUA":"RUA VINTE E SETE DE JULHO "
+  },
+  {
+    "lat":-7.23547,
+    "lon":-35.8962185,
+    "count":1,
+    "RUA":"RUA ALMIRANTE BARROSO"
+  },
+  {
+    "lat":-7.2483569,
+    "lon":-35.9284381,
+    "count":1,
+    "RUA":"RUA ALCIDES"
+  },
+  {
+    "lat":-7.2173955,
+    "lon":-35.8858229,
+    "count":1,
+    "RUA":"AV JOAO PESSOA"
+  },
+  {
+    "lat":-7.2223667,
+    "lon":-35.8734667,
+    "count":1,
+    "RUA":"RUA JOAO FRANCISCO DE ANDRADE "
+  },
+  {
+    "lat":-7.2410812,
+    "lon":-35.888052,
+    "count":3,
+    "RUA":"AV ASSIS CHATEAUBRIAND"
+  },
+  {
+    "lat":-7.2561681,
+    "lon":-35.8863242,
+    "count":1,
+    "RUA":"RUA DO JUA"
+  },
+  {
+    "lat":-7.1514743,
+    "lon":-35.8515564,
+    "count":1,
+    "RUA":"RUA PROJETADA"
+  },
+  {
+    "lat":-7.228199,
+    "lon":-35.9189281,
+    "count":1,
+    "RUA":"RUA FREIRA FRANCISCA GUSMAO "
+  },
+  {
+    "lat":-7.2337762,
+    "lon":-35.9257241,
+    "count":1,
+    "RUA":"RUA MOSSORO"
+  },
+  {
+    "lat":-7.2380112,
+    "lon":-35.9219662,
+    "count":1,
+    "RUA":"RUA DOUTOR AUGUSTO DE ALMEIDA"
+  },
+  {
+    "lat":-7.23559,
+    "lon":-35.9312681,
+    "count":1,
+    "RUA":"RUA MARIA DA MUNIS DE ALBUQUERQUE"
+  },
+  {
+    "lat":-7.2509654,
+    "lon":-35.9273498,
+    "count":3,
+    "RUA":"RUA FRANCISCO LOPES DE ALMEIDA"
+  },
+  {
+    "lat":-7.2439938,
+    "lon":-35.901272,
+    "count":1,
+    "RUA":"RUA JOSE GONCALVES LUCENA "
+  },
+  {
+    "lat":-7.2283635,
+    "lon":-35.8791107,
+    "count":9,
+    "RUA":"AV CANAL"
+  },
+  {
+    "lat":-7.2433129,
+    "lon":-35.9233968,
+    "count":2,
+    "RUA":"RUA JAMILA ABRAAO JORGE"
+  },
+  {
+    "lat":-7.2265122,
+    "lon":-35.8792653,
+    "count":1,
+    "RUA":"RUA PAULO DE FROTIM"
+  },
+  {
+    "lat":-7.2610776,
+    "lon":-35.92071,
+    "count":1,
+    "RUA":"RUA TAMANDUA"
+  },
+  {
+    "lat":-7.25708,
+    "lon":-35.9097373,
+    "count":1,
+    "RUA":"RUA JUSCELINO KUBISCHECK"
+  },
+  {
+    "lat":-7.3389658,
+    "lon":-35.8989185,
+    "count":1,
+    "RUA":"RUA ASSIS CHATEAUBRIAND"
+  },
+  {
+    "lat":-7.2210903,
+    "lon":-35.8787309,
+    "count":6,
+    "RUA":"RUA VILA NOVA DA RAINHA"
+  },
+  {
+    "lat":-7.2216448,
+    "lon":-35.8868601,
+    "count":4,
+    "RUA":"RUA TREZE DE MAIO"
+  },
+  {
+    "lat":-7.25708,
+    "lon":-35.9097373,
+    "count":3,
+    "RUA":"RUA JUSCELINO KUBITSCHEK"
+  },
+  {
+    "lat":-7.2441903,
+    "lon":-35.8749261,
+    "count":1,
+    "RUA":"RUA LEVI MENEZES "
+  },
+  {
+    "lat":-7.2424087,
+    "lon":-35.9276399,
+    "count":1,
+    "RUA":"RUA CARLOS FORMIGA"
+  },
+  {
+    "lat":-7.2386942,
+    "lon":-35.8669442,
+    "count":1,
+    "RUA":"RUA JOSÉ BERNARDINO"
+  },
+  {
+    "lat":-7.2230627,
+    "lon":-35.9200239,
+    "count":1,
+    "RUA":"RUA DOUTOR SEVERINO RIBEIRO CRUZ "
+  },
+  {
+    "lat":-7.2217283,
+    "lon":-35.9163941,
+    "count":1,
+    "RUA":"RUA APRIGIO VELOSO"
+  },
+  {
+    "lat":-7.2235857,
+    "lon":-35.8839771,
+    "count":1,
+    "RUA":"RUA MIGUEL COUTO"
+  },
+  {
+    "lat":-7.2444422,
+    "lon":-35.8884102,
+    "count":1,
+    "RUA":"RUA PREFEITO ANTONIO COUTINHO "
+  },
+  {
+    "lat":-7.2137099,
+    "lon":-35.8724961,
+    "count":1,
+    "RUA":"RUA SALVINO OLIVEIRA NETO "
+  },
+  {
+    "lat":-7.2309417,
+    "lon":-35.8680489,
+    "count":1,
+    "RUA":"RUA JUVINO DO O"
+  },
+  {
+    "lat":-7.2579169,
+    "lon":-35.8973755,
+    "count":1,
+    "RUA":"RUA JOSE ALVES"
+  },
+  {
+    "lat":-7.2342495,
+    "lon":-35.8586875,
+    "count":1,
+    "RUA":"RUA FERNANDES VIEIRA"
+  },
+  {
+    "lat":-7.210494,
+    "lon":-35.8854415,
+    "count":1,
+    "RUA":"RUA FREI MARTINHO"
+  },
+  {
+    "lat":-7.2410812,
+    "lon":-35.888052,
+    "count":2,
+    "RUA":"AV ASSIS CHATEAUBRIAND "
+  },
+  {
+    "lat":-7.2386737,
+    "lon":-35.9083258,
+    "count":2,
+    "RUA":"RUA SÃO PEDRO"
+  },
+  {
+    "lat":-7.2193398,
+    "lon":-35.8816382,
+    "count":2,
+    "RUA":"RUA AFONSO CAMPOS "
+  },
+  {
+    "lat":-7.2326387,
+    "lon":-35.8762613,
+    "count":1,
+    "RUA":"RUA JOAO LELIS"
+  },
+  {
+    "lat":-7.233353,
+    "lon":-35.872326,
+    "count":1,
+    "RUA":"RUA ANTONIO DE SOUSA LOPES "
+  },
+  {
+    "lat":-7.25708,
+    "lon":-35.9097373,
+    "count":4,
+    "RUA":"AV JUSCELINO KUBITSCHEK"
+  },
+  {
+    "lat":-7.2219207,
+    "lon":-35.9216233,
+    "count":2,
+    "RUA":"RUA FLORIPEDES COUTINHO "
+  },
+  {
+    "lat":-7.214868,
+    "lon":-35.8888711,
+    "count":1,
+    "RUA":"RUA JOAO DA SILVA PIMENTEL "
+  },
+  {
+    "lat":-7.2223667,
+    "lon":-35.8734667,
+    "count":1,
+    "RUA":"RUA PAULO GOMES PERICO"
+  },
+  {
+    "lat":-7.1884014,
+    "lon":-35.8813203,
+    "count":2,
+    "RUA":"AV DAS NACOES"
+  },
+  {
+    "lat":-7.2121814,
+    "lon":-35.8606263,
+    "count":1,
+    "RUA":"RUA JOSÉ GOMES DE FARIAS"
+  },
+  {
+    "lat":-7.2223667,
+    "lon":-35.8734667,
+    "count":1,
+    "RUA":"RUA JOÃO EDSON SOUZA"
+  },
+  {
+    "lat":-7.2133865,
+    "lon":-35.8988651,
+    "count":1,
+    "RUA":"RUA DA BORBOREMA"
+  },
+  {
+    "lat":-7.2232328,
+    "lon":-35.8896816,
+    "count":1,
+    "RUA":"RUA LINO GOMES DA SILVA "
+  },
+  {
+    "lat":-7.2230627,
+    "lon":-35.9200239,
+    "count":1,
+    "RUA":"RUA SEVERINO RIBEIRO CRUZ"
+  },
+  {
+    "lat":-7.2223667,
+    "lon":-35.8734667,
+    "count":1,
+    "RUA":"RUA MARINALDO VITORINO BATISTA FILHO"
+  },
+  {
+    "lat":-7.2108227,
+    "lon":-35.8845801,
+    "count":1,
+    "RUA":"RUA MANOEL ELIAS "
+  },
+  {
+    "lat":-7.2289905,
+    "lon":-35.8839966,
+    "count":1,
+    "RUA":"RUA PRUDENTE DE MORAES"
+  },
+  {
+    "lat":-7.2533384,
+    "lon":-35.8945744,
+    "count":1,
+    "RUA":"RUA JOSÉ FIRMINO DA SILVA"
+  },
+  {
+    "lat":-7.2445951,
+    "lon":-35.9262148,
+    "count":1,
+    "RUA":"RUA DAS UMBURANAS"
+  },
+  {
+    "lat":-6.97066,
+    "lon":-35.7118048,
+    "count":1,
+    "RUA":"RUA DA BARREIRA"
+  },
+  {
+    "lat":-7.2195995,
+    "lon":-35.8849528,
+    "count":1,
+    "RUA":"PRACA DA BANDEIRA"
+  },
+  {
+    "lat":-7.2338966,
+    "lon":-35.8729918,
+    "count":1,
+    "RUA":"RUA OTACÍLIO NEPOMUCENO"
+  },
+  {
+    "lat":-7.2332603,
+    "lon":-35.8632298,
+    "count":1,
+    "RUA":"RUA DJALMA MIGUEL DE MORAIS"
+  },
+  {
+    "lat":-7.2035447,
+    "lon":-35.9023844,
+    "count":1,
+    "RUA":"RUA JOSE ANCHIETA DE QUEIROZ"
+  },
+  {
+    "lat":-7.2223667,
+    "lon":-35.8734667,
+    "count":1,
+    "RUA":"RUA CHA DO MARINHO"
+  },
+  {
+    "lat":-7.2391003,
+    "lon":-35.926959,
+    "count":1,
+    "RUA":"RUA DAS PITOMBEIRAS"
+  },
+  {
+    "lat":-7.2493592,
+    "lon":-35.9205706,
+    "count":1,
+    "RUA":"RUA MACEIO"
+  },
+  {
+    "lat":-7.2593207,
+    "lon":-35.9099166,
+    "count":1,
+    "RUA":"RUA DA CONCEIÇÃO"
+  },
+  {
+    "lat":-7.2216092,
+    "lon":-35.8699701,
+    "count":1,
+    "RUA":"RUA TOME DE SOUZA "
+  },
+  {
+    "lat":-7.2507748,
+    "lon":-35.9193773,
+    "count":1,
+    "RUA":"RUA RECIFE"
+  },
+  {
+    "lat":-7.2375122,
+    "lon":-35.8679401,
+    "count":3,
+    "RUA":"RODOVIA BR 230"
+  },
+  {
+    "lat":-7.2242365,
+    "lon":-35.8868904,
+    "count":1,
+    "RUA":"RUA SEBASTIÃO DONATO"
+  },
+  {
+    "lat":-7.2223667,
+    "lon":-35.8734667,
+    "count":1,
+    "RUA":"RUA NATALICIA R. VIEIRA "
+  },
+  {
+    "lat":-7.2190937,
+    "lon":-35.8891918,
+    "count":3,
+    "RUA":"RUA INDIOS CARIRIS"
+  },
+  {
+    "lat":-7.2339942,
+    "lon":-35.9105869,
+    "count":2,
+    "RUA":"AV DINAMERICA"
+  },
+  {
+    "lat":-7.2274704,
+    "lon":-35.8966416,
+    "count":1,
+    "RUA":"RUA CASTRO PINTO "
+  },
+  {
+    "lat":-7.24929,
+    "lon":-35.9013847,
+    "count":1,
+    "RUA":"RUA ANA VILAR"
+  },
+  {
+    "lat":-7.23547,
+    "lon":-35.8962185,
+    "count":2,
+    "RUA":"AV ALMIRANTE BARROSO"
+  },
+  {
+    "lat":-7.2223667,
+    "lon":-35.8734667,
+    "count":1,
+    "RUA":"RUA JÚLIA DE ANDRADE"
+  },
+  {
+    "lat":-7.2506392,
+    "lon":-35.8957545,
+    "count":1,
+    "RUA":"RUA JOANA DE ALBUQUERQUE SILVEIRA "
+  },
+  {
+    "lat":-7.2369919,
+    "lon":-35.9194103,
+    "count":1,
+    "RUA":"RUA JOSE AGOSTINHO DO NASCIMENTO"
+  },
+  {
+    "lat":-7.2163671,
+    "lon":-35.8750987,
+    "count":1,
+    "RUA":"RUA VIGARIO VIRGINIO "
+  },
+  {
+    "lat":-7.2237799,
+    "lon":-35.8840185,
+    "count":1,
+    "RUA":"RUA DESEMBARGADOR TRINDADE"
+  },
+  {
+    "lat":-7.275699,
+    "lon":-35.910813,
+    "count":1,
+    "RUA":"RUA JOSE SANTINO"
+  },
+  {
+    "lat":-7.2223667,
+    "lon":-35.8734667,
+    "count":1,
+    "RUA":"RUA PRINCIPAL"
+  },
+  {
+    "lat":-7.2325367,
+    "lon":-35.8655273,
+    "count":1,
+    "RUA":"RUA VER. ANTONIO JOSÉ RODRIGUES"
+  },
+  {
+    "lat":-7.2275983,
+    "lon":-35.877002,
+    "count":2,
+    "RUA":"RUA ELPIDIO DE ALMEIDA"
+  },
+  {
+    "lat":-7.1986848,
+    "lon":-35.8959945,
+    "count":1,
+    "RUA":"RUA QUINZE DE NOVEMBRO"
+  },
+  {
+    "lat":-7.2170725,
+    "lon":-35.8797332,
+    "count":1,
+    "RUA":"RUA TAVARES CAVALCANTE"
+  },
+  {
+    "lat":-7.2563153,
+    "lon":-35.8787877,
+    "count":1,
+    "RUA":"RUA VIGARIO CALIXTO"
+  },
+  {
+    "lat":-7.2223667,
+    "lon":-35.8734667,
+    "count":1,
+    "RUA":"ALCA SUDOESTE"
+  },
+  {
+    "lat":-7.2134209,
+    "lon":-35.8982596,
+    "count":1,
+    "RUA":"RUA JOAO MAURICIO MEDEIROS "
+  },
+  {
+    "lat":-7.2187447,
+    "lon":-35.8960187,
+    "count":1,
+    "RUA":"AV DOM PEDRO II"
+  },
+  {
+    "lat":-7.2265907,
+    "lon":-35.8696207,
+    "count":1,
+    "RUA":"RUA DOM BOSCO"
+  },
+  {
+    "lat":-7.2133336,
+    "lon":-35.8893338,
+    "count":1,
+    "RUA":"RUA JOSE LINS DO REGO "
+  },
+  {
+    "lat":-7.215221,
+    "lon":-35.8811836,
+    "count":1,
+    "RUA":"RUA ESTELITA CRUZ"
+  },
+  {
+    "lat":-7.2186352,
+    "lon":-35.8850358,
+    "count":1,
+    "RUA":"RUA MARQUES DO HERVAL "
+  },
+  {
+    "lat":-7.222716,
+    "lon":-35.88261,
+    "count":1,
+    "RUA":"RUA ALEXANDRINO CAVALCANTE "
+  },
+  {
+    "lat":-7.2352459,
+    "lon":-35.902255,
+    "count":1,
+    "RUA":"RUA ANA ALMEIDA DE CASTRO "
+  },
+  {
+    "lat":-7.2223667,
+    "lon":-35.8734667,
+    "count":1,
+    "RUA":"RUA JOSÉ MARTINS DE ANDRADE"
+  },
+  {
+    "lat":-7.2086304,
+    "lon":-35.9003121,
+    "count":1,
+    "RUA":"RUA MARIA ROSA"
+  },
+  {
+    "lat":-7.2412275,
+    "lon":-35.9041761,
+    "count":2,
+    "RUA":"RUA ALFREDO ALVES ARAUJO"
+  },
+  {
+    "lat":-7.2104718,
+    "lon":-35.8769168,
+    "count":1,
+    "RUA":"RUA FRANKLIN ARAÚJO"
+  },
+  {
+    "lat":-7.2140283,
+    "lon":-35.8999221,
+    "count":1,
+    "RUA":"RUA JOSE AUGUSTO TRINDADE "
+  },
+  {
+    "lat":-7.2354335,
+    "lon":-35.8827645,
+    "count":1,
+    "RUA":"RUA JOAO QUIRINO "
+  },
+  {
+    "lat":-7.2533869,
+    "lon":-35.9150606,
+    "count":1,
+    "RUA":"RUA JOÃO DA CUNHA LIMA"
+  },
+  {
+    "lat":-7.21816,
+    "lon":-35.8845104,
+    "count":1,
+    "RUA":"RUA VENANCIO NEIVA"
+  },
+  {
+    "lat":-7.27564,
+    "lon":-35.9140711,
+    "count":1,
+    "RUA":"RUA DANIEL LUIS RODRIGUES"
+  },
+  {
+    "lat":-7.2405647,
+    "lon":-35.8777089,
+    "count":1,
+    "RUA":"RUA NEUSA BRILHANTE"
+  },
+  {
+    "lat":-7.2590698,
+    "lon":-35.9176269,
+    "count":2,
+    "RUA":"RUA TRÊS IRMÃS"
+  },
+  {
+    "lat":-7.2227657,
+    "lon":-35.872045,
+    "count":2,
+    "RUA":"RUA JOANA DARC"
+  },
+  {
+    "lat":-7.2211282,
+    "lon":-35.8774007,
+    "count":1,
+    "RUA":"RUA QUEBRA QUILOS "
+  },
+  {
+    "lat":-7.2315441,
+    "lon":-35.9224193,
+    "count":1,
+    "RUA":"RUA PROFESSORA MARIA AUGUSTO MENDONÇA"
+  },
+  {
+    "lat":-7.237206,
+    "lon":-35.925112,
+    "count":1,
+    "RUA":"RUA CRATO"
+  },
+  {
+    "lat":-7.2433129,
+    "lon":-35.9233968,
+    "count":1,
+    "RUA":"RUA JAMILA ABRAÃO JORGE "
+  },
+  {
+    "lat":-7.2332603,
+    "lon":-35.8632298,
+    "count":1,
+    "RUA":"RUA DJALMA MIGUEL DE MORAIS "
+  },
+  {
+    "lat":-7.2257831,
+    "lon":-35.8724315,
+    "count":5,
+    "RUA":"RUA CAMPOS SALES"
+  },
+  {
+    "lat":-7.2256211,
+    "lon":-35.9024741,
+    "count":1,
+    "RUA":"RUA OSWALDO CRUZ"
+  },
+  {
+    "lat":-7.2332755,
+    "lon":-35.8774,
+    "count":1,
+    "RUA":"RUA JOAO PEQUENO"
+  },
+  {
+    "lat":-7.250944,
+    "lon":-35.8860939,
+    "count":1,
+    "RUA":"RUA MANOEL ALVES DE OLIVIERA"
+  },
+  {
+    "lat":-7.2416973,
+    "lon":-35.8938156,
+    "count":1,
+    "RUA":"RUA SEVERINO PIMENTEL"
+  },
+  {
+    "lat":-7.2499646,
+    "lon":-35.8959525,
+    "count":1,
+    "RUA":"RUA JOAO SIQUEIRA LUNA "
+  },
+  {
+    "lat":-7.2383857,
+    "lon":-35.886042,
+    "count":1,
+    "RUA":"RUA VINTE E QUATRO DE MAIO"
+  },
+  {
+    "lat":-7.1986848,
+    "lon":-35.8959945,
+    "count":2,
+    "RUA":"RUA QUINZE DE NOVEMBRO "
+  },
+  {
+    "lat":-7.2407499,
+    "lon":-35.8622886,
+    "count":1,
+    "RUA":"RUA SÃO LUIZ"
+  },
+  {
+    "lat":-7.2165873,
+    "lon":-35.8735746,
+    "count":1,
+    "RUA":"RUA SILVA JARDIM II"
+  },
+  {
+    "lat":-7.2161719,
+    "lon":-35.9226963,
+    "count":1,
+    "RUA":"RUA FRANCISCO MELQUIADES "
+  },
+  {
+    "lat":-7.250944,
+    "lon":-35.8860939,
+    "count":1,
+    "RUA":"RUA MANOEL ALVES OLIVEIRA"
+  },
+  {
+    "lat":-7.2620924,
+    "lon":-35.9186933,
+    "count":1,
+    "RUA":"RUA PEDRO AZEVEDO"
+  },
+  {
+    "lat":-7.2359227,
+    "lon":-35.86681,
+    "count":1,
+    "RUA":"AV ENGENHEIRO JOSE CELINO FILHO"
+  },
+  {
+    "lat":-7.2186207,
+    "lon":-35.8481398,
+    "count":2,
+    "RUA":"RUA GONÇALVES DIAS"
+  },
+  {
+    "lat":-7.247724,
+    "lon":-35.9263465,
+    "count":1,
+    "RUA":"RUA CORNÉLIO JACINTO DA SILVA"
+  },
+  {
+    "lat":-7.2223667,
+    "lon":-35.8734667,
+    "count":1,
+    "RUA":"RUA ENGENHEIRO SATURNINO DE BRITO FILHO"
+  },
+  {
+    "lat":-7.2223667,
+    "lon":-35.8734667,
+    "count":1,
+    "RUA":"RUA JOÃO VALDIVINO ALVES"
+  },
+  {
+    "lat":-7.2234655,
+    "lon":-35.8726491,
+    "count":1,
+    "RUA":"RUA ESTACIO DE SÁ"
+  },
+  {
+    "lat":-7.2223667,
+    "lon":-35.8734667,
+    "count":1,
+    "RUA":"RUA ANÍSIO RODRIGUES DE SOUSA"
+  },
+  {
+    "lat":-7.2333244,
+    "lon":-35.8877546,
+    "count":1,
+    "RUA":"RUA PARAIBA"
+  },
+  {
+    "lat":-7.2507437,
+    "lon":-35.8952592,
+    "count":1,
+    "RUA":"RUA GABRIEL CHABO"
+  },
+  {
+    "lat":-7.2306975,
+    "lon":-35.892817,
+    "count":1,
+    "RUA":"RUA ESPIRITO SANTO "
+  },
+  {
+    "lat":-7.2131395,
+    "lon":-35.8862197,
+    "count":1,
+    "RUA":"RUA PROF. MAURO LUNA"
+  },
+  {
+    "lat":-7.2510877,
+    "lon":-35.9112383,
+    "count":2,
+    "RUA":"RUA JOÃO CAVALCANTE DE ARRUDA"
+  },
+  {
+    "lat":-7.2223667,
+    "lon":-35.8734667,
+    "count":1,
+    "RUA":"RUA OSVALDO CRUZ TODA "
+  },
+  {
+    "lat":-7.2223667,
+    "lon":-35.8734667,
+    "count":1,
+    "RUA":"RUA JOSÉ BULCÃO DA SILVA"
+  },
+  {
+    "lat":-7.2214361,
+    "lon":-35.8826663,
+    "count":2,
+    "RUA":"RUA JOAO XXIII"
+  },
+  {
+    "lat":-7.2112966,
+    "lon":-35.8811609,
+    "count":1,
+    "RUA":"RUA AGAMENON MAGALHAES "
+  },
+  {
+    "lat":-7.2352333,
+    "lon":-35.9049448,
+    "count":1,
+    "RUA":"RUA DAMASCO"
+  },
+  {
+    "lat":-7.218273,
+    "lon":-35.8872468,
+    "count":1,
+    "RUA":"RUA BARTOLOMEU DE GUSMAO"
+  },
+  {
+    "lat":-7.2530122,
+    "lon":-35.909222,
+    "count":1,
+    "RUA":"RUA FRANCISCO ALVES"
+  },
+  {
+    "lat":-7.2361952,
+    "lon":-35.9000815,
+    "count":1,
+    "RUA":"RUA AMÉRICO CARNEIRO"
+  },
+  {
+    "lat":-7.2246144,
+    "lon":-35.8853698,
+    "count":1,
+    "RUA":"RUA OTACILIO ALBUQUERQUE"
+  },
+  {
+    "lat":-7.2369782,
+    "lon":-35.8854811,
+    "count":1,
+    "RUA":"RUA GUILHERMINO BARBOSA"
+  },
+  {
+    "lat":-7.267808,
+    "lon":-35.9189876,
+    "count":1,
+    "RUA":"RUA ACÁCIO FIGUEIREDO"
+  },
+  {
+    "lat":-7.2223667,
+    "lon":-35.8734667,
+    "count":1,
+    "RUA":"RUA MARIA DE LOURDES FERREIRA "
+  },
+  {
+    "lat":-7.2121814,
+    "lon":-35.8606263,
+    "count":1,
+    "RUA":"RUA JOSE GOMES DA FARIAS"
+  },
+  {
+    "lat":-7.2138836,
+    "lon":-35.8849458,
+    "count":1,
+    "RUA":"RUA VIGOLVINO WANDERLEY"
+  },
+  {
+    "lat":-7.2235079,
+    "lon":-35.9151396,
+    "count":1,
+    "RUA":"AV PORTUGAL "
+  },
+  {
+    "lat":-7.2183242,
+    "lon":-35.8833199,
+    "count":2,
+    "RUA":"RUA SEMEAO LEAL "
+  },
+  {
+    "lat":-7.2354335,
+    "lon":-35.8827645,
+    "count":1,
+    "RUA":"RUA JOÃO QUIRINO"
+  },
+  {
+    "lat":-7.2754488,
+    "lon":-35.9211554,
+    "count":1,
+    "RUA":"RUA MANOEL LOPES DE FIGUEIREDO "
+  },
+  {
+    "lat":-7.2183977,
+    "lon":-35.8773161,
+    "count":1,
+    "RUA":"RUA MARCILIO DIAS"
+  },
+  {
+    "lat":-7.2195995,
+    "lon":-35.8849528,
+    "count":2,
+    "RUA":"PRAÇA DA BANDEIRA"
+  },
+  {
+    "lat":-7.2223667,
+    "lon":-35.8734667,
+    "count":1,
+    "RUA":"RUA GILSON PEREIRA SOUZA"
+  },
+  {
+    "lat":-7.2237799,
+    "lon":-35.8840185,
+    "count":1,
+    "RUA":"RUA DESEMBARGADOR TRINDADE "
+  },
+  {
+    "lat":-7.2208531,
+    "lon":-35.8686463,
+    "count":1,
+    "RUA":"RUA SGT EDSON SALES"
+  }
+]
