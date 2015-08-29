@@ -1,29 +1,22 @@
 library('dplyr')
 library('ggplot2')
 library('ggmap')
-
+library(rjson)
 # data preparation
 data = read.csv('../data/respostas.csv')
-dim(data)
-locations = data %>%
+locations = distinct(data, usuario, lat, lon)
+locations
+locations = filter(locations, lat != 'None' & lon != 'None')
+
+locations$lat = as.numeric(as.character(locations$lat))
+locations$lon = as.numeric(as.character(locations$lon))
+
+locations = locations %>%
   select(lon,lat) %>%
   group_by(lon,lat) %>%
   summarise(count = n())
 
 
-locations$lat = as.numeric(locations$lat)
-locations$lon = as.numeric(locations$lon)
-
-map_center = as.numeric(geocode("world"))
-map = ggmap(get_googlemap(scale = 1, zoom = 8), extent="normal")  
-print(map)
-map + geom_point(aes(x=lon, y=lon) , size = locations$freq*0.5, data=locations, col="orange", alpha=0.4) +
-  scale_size_continuous(range=range(locations$freq))
-
-## Heatmap
-map = get_map(location = ' Brazil', zoom = 7)
-ggmap(map, extent = 'device') + geom_density2d(data = locations, aes(x = lon, y = lat), size = 0.3) + 
-  stat_density2d(data = locations, 
-                 aes(x = lon, y = lat, fill = ..level.., alpha = ..level..), size = 0.01, 
-                 bins = 16, geom = "polygon") + scale_fill_gradient(low = "green", high = "red") + 
-  scale_alpha(range = c(0, 0.3), guide = FALSE)
+json_file <- toJSON(unname(split(locations, 1:nrow(locations))))
+json_file
+write(json_file, "../web/localidades.json")

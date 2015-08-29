@@ -44,9 +44,9 @@
 
         function initialize() {
             var mapOptions = {
-                zoom: 14,
-                center: new google.maps.LatLng(-7.22, -35.91),
-                mapTypeId: google.maps.MapTypeId.SATELLITE
+                zoom: 5,
+                center: new google.maps.LatLng(-19.55, -43.56),
+                mapTypeIds: [google.maps.MapTypeId.SATELLITE, google.maps.MapTypeId.TERRAIN]
             };
             map = new google.maps.Map(document.getElementById('map-canvas'),
                     mapOptions);
