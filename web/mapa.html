@@ -53,7 +53,7 @@
 
 
 
-            $.getJSON("localidades-geral.json",function(result){
+            $.getJSON("localidades.json",function(result){
                 $.each(result,function(key,val){
                     taxiData.push(new google.maps.LatLng(val["lat"],val["lon"]));
                     valores.push(val);
