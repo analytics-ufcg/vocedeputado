@@ -1,6 +1,7 @@
 # coding: utf-8
 
-from pygeocoder import Geocoder
+#from pygeocoder import Geocoder
+import geocoder
 import csv
 import sys
 import time
@@ -10,18 +11,23 @@ sys.setdefaultencoding('utf8')
 def transform(lat,lon):
     list = []
     #print "Convertendo"
-    geocod=Geocoder.reverse_geocode(lat,lon)
-    addresses = geocod.current_data["address_components"]
+    #geocod=Geocoder.reverse_geocode(lat,lon)
+    geocod = geocoder.google([lat,lon], method='reverse')#key=...
+    #addresses = geocod.current_data["address_components"]
 
-    for component in addresses:
-        if ("administrative_area_level_2" in component["types"]):
-            list.append(component['long_name'])
-
-        if ("country" in component["types"]):
-            list.append(component['long_name'])
-
-        if ("administrative_area_level_1" in component["types"]):
-            list.append(component['long_name']) 
+    #for component in addresses:
+    #    if ("administrative_area_level_2" in component["types"]):
+    #        list.append(component['long_name'])
+#
+ #       if ("country" in component["types"]):
+  #          list.append(component['long_name'])
+#
+ #       if ("administrative_area_level_1" in component["types"]):
+  #          list.append(component['long_name']) 
+    list.append(geocod.city) 
+    list.append(geocod.state)
+    list.append(geocod.country)
+    print "Cidade " + str(geocod.city)
     return list
 
 if __name__ == "__main__":
