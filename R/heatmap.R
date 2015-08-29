@@ -8,13 +8,15 @@ dim(data)
 locations = data %>%
   select(lon,lat) %>%
   group_by(lon,lat) %>%
-  summarise(freq = n())
+  summarise(count = n())
+
 
 locations$lat = as.numeric(locations$lat)
 locations$lon = as.numeric(locations$lon)
 
-map_center = as.numeric(geocode("Brazil"))
-map = ggmap(get_googlemap(center= map_center, scale = 1, zoom = 17), extent="normal")  
+map_center = as.numeric(geocode("world"))
+map = ggmap(get_googlemap(scale = 1, zoom = 8), extent="normal")  
+print(map)
 map + geom_point(aes(x=lon, y=lon) , size = locations$freq*0.5, data=locations, col="orange", alpha=0.4) +
   scale_size_continuous(range=range(locations$freq))
 

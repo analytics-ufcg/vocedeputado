@@ -53,7 +53,7 @@
 
 
 
-            $.getJSON("crimes.json",function(result){
+            $.getJSON("localidades-geral.json",function(result){
                 $.each(result,function(key,val){
                     taxiData.push(new google.maps.LatLng(val["lat"],val["lon"]));
                     valores.push(val);
@@ -77,7 +77,7 @@
         function addInfoWindow(marker, message) {
 
             var infoWindow = new google.maps.InfoWindow({
-                content: message["RUA"]
+                content: message["usuario"]
             });
 
             google.maps.event.addListener(marker, 'click', function () {
