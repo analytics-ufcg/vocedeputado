@@ -9,6 +9,8 @@ args      = commandArgs(trailingOnly = TRUE)
 num_cores = as.integer(args[1])
 users     = as.character(unique(df_user$usuario))
 
+dim(df_user)
+
 dfa = df_user %>% filter(usuario == users[1]) %>% full_join(df_dep, by="tema")  
 
 try(system(paste("echo ", length(users), " > result.out", sep=""), intern = TRUE))
