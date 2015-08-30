@@ -1,0 +1,7 @@
+#heatmapfig img {
+    display: block;
+    width:50%;
+    height:90%;
+    margin-left: auto;
+    margin-right: auto;
+}
