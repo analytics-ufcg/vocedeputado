@@ -1,7 +1,31 @@
+section {
+    padding: 85px 0;
+}
+
+
 #heatmapfig img {
     display: block;
     width:50%;
     height:90%;
     margin-left: auto;
     margin-right: auto;
+
+
 }
+
+#topdepfig img {
+    display: block;
+    width:80%;
+    height:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#toppartidosfig img {
+    display: block;
+    width:80%;
+    height:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
