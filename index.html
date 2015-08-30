@@ -17,6 +17,10 @@
     <!-- Custom CSS -->
     <link href="css/agency.css" rel="stylesheet">
 
+    <!-- Heatmap CSS -->
+    <link href="css/heatmap.css" rel="stylesheet">
+
+
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -30,177 +34,6 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <style>
-        html, body, #map-canvas {
-            height: 100%;
-            margin: 0px;
-            padding: 0px
-        }
-        #panel {
-            position: absolute;
-            top: 5px;
-            left: 50%;
-            margin-left: -180px;
-            z-index: 5;
-            background-color: #fff;
-            padding: 5px;
-            border: 1px solid #999;
-        }
-    </style>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=visualization"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
-    <script>
-        // Adding 500 Data Points
-        var map, pointarray, heatmap;
-
-        var taxiData = [
-            //new google.maps.LatLng(37.782551, -122.445368),
-
-//            new google.maps.LatLng(37.783383, -122.439594)
-
-        ];
-
-        var heatmapData = [];
-
-        var circulos = [];
-        var valores = [];
-
-
-        function initialize() {
-            var mapOptions = {
-                zoom: 5,
-                center: new google.maps.LatLng(-19.55, -43.56),
-                mapTypeIds: [google.maps.MapTypeId.SATELLITE, google.maps.MapTypeId.TERRAIN]
-            };
-            map = new google.maps.Map(document.getElementById('map-canvas'),
-                    mapOptions);
-
-
-
-            $.getJSON("localidades.json",function(result){
-                $.each(result,function(key,val){
-                    taxiData.push(new google.maps.LatLng(val["lat"],val["lon"]));
-                    valores.push(val);
-                    heatmapData.push({location: new google.maps.LatLng(val["lat"],val["lon"]), weight: val["count"]*10})
-                })
-                var pointArray = new google.maps.MVCArray(heatmapData);
-
-                heatmap = new google.maps.visualization.HeatmapLayer({
-                    data: pointArray,
-                    radius: 50
-                });
-
-                heatmap.setMap(map);
-
-             });
-
-
-
-        }
-
-        function addInfoWindow(marker, message) {
-
-            var infoWindow = new google.maps.InfoWindow({
-                content: message["usuario"]
-            });
-
-            google.maps.event.addListener(marker, 'click', function () {
-                infoWindow.open(map, marker);
-            });
-        }
-
-        function toggleHeatmap() {
-            if (heatmap.getMap() == null){
-                for(var i = 0; i < circulos.length; i++){
-                    circulos[i].setMap(null);
-                }
-                circulos.length = 0;
-
-                heatmap.setMap(map);
-
-                $("#toogle").html("Show Circles");
-
-                $("#btn_gradient").show();
-                $("#btn_opacity").show();
-
-
-            }else{
-                heatmap.setMap(null);
-                $("#toogle").html("Show Heatmap");
-
-                for (var dataa in taxiData) {
-                    circulo = {
-                        strokeColor: '#FF0000',
-                        strokeOpacity: 0.8,
-                        strokeWeight: 2,
-                        fillColor: '#FF0000',
-                        fillOpacity: 0.35,
-                        map: map,
-                        center: taxiData[dataa],
-                        radius: 100
-                    };
-                    // Add the circle for this city to the map.
-                    cityCircle = new google.maps.Circle(circulo);
-                    addInfoWindow(cityCircle, valores[dataa]);
-
-                    circulos.push(cityCircle);
-                }
-                $("#btn_gradient").hide();
-                $("#btn_opacity").hide();
-
-
-            }
-        }
-
-        function changeGradient() {
-            var gradient = [
-                'rgba(0, 255, 255, 0)',
-                'rgba(0, 255, 255, 1)',
-                'rgba(0, 191, 255, 1)',
-                'rgba(0, 127, 255, 1)',
-                'rgba(0, 63, 255, 1)',
-                'rgba(0, 0, 255, 1)',
-                'rgba(0, 0, 223, 1)',
-                'rgba(0, 0, 191, 1)',
-                'rgba(0, 0, 159, 1)',
-                'rgba(0, 0, 127, 1)',
-                'rgba(63, 0, 91, 1)',
-                'rgba(127, 0, 63, 1)',
-                'rgba(191, 0, 31, 1)',
-                'rgba(255, 0, 0, 1)'
-            ]
-            heatmap.set('gradient', heatmap.get('gradient') ? null : gradient);
-        }
-
-        function changeRadius() {
-            if (heatmap.getMap() != null) {
-                heatmap.set('radius', heatmap.get('radius') ? heatmap.get('radius') + 10 : 10);
-            }else{
-                for(var i = 0; i < circulos.length; i++) {
-                    circulos[i].setRadius(circulos[i].getRadius() + 25);
-                }
-            }
-        }
-
-        function changeRadius1() {
-            if (heatmap.getMap() != null) {
-
-                heatmap.set('radius', heatmap.get('radius') ? heatmap.get('radius') - 10 : 10);
-            }else{
-                for(var i = 0; i < circulos.length; i++) {
-                    circulos[i].setRadius(circulos[i].getRadius() - 25);
-                }
-            }
-        }
-        function changeOpacity() {
-            heatmap.set('opacity', heatmap.get('opacity') ? null : 0.2);
-        }
-
-        google.maps.event.addDomListener(window, 'load', initialize);
-
-    </script>
-
 
     <script>
      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -240,9 +73,8 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#heatmap">Quem?</a>
+                        <a class="page-scroll" href="#heatmap">Quem Votou?</a>
                     </li>
-
                     <li>
                         <a class="page-scroll" href="#services">Services</a>
                     </li>
@@ -271,25 +103,10 @@
             <div class="intro-text">
                 <div class="intro-heading">Você deputado!</div>
                 <div class="intro-lead-in">Como você representaria os brasileiros na câmara?</div>
-                <a href="#services" class="page-scroll btn btn-xl">Saiba mais</a>
+                <a href="#heatmap" class="page-scroll btn btn-xl">Saiba mais</a>
             </div>
         </div>
-        </header>
-
-
-    <!--
-    <section id="heatmap">
-                    <div id="map-canvas"></div>
-                    <div id="panel">
-                        <button onclick="toggleHeatmap()" id="toogle">Show Circles</button>
-                        <button onclick="changeRadius()">+</button>
-                        <button onclick="changeRadius1()">-</button>
-                        <button onclick="changeGradient()" id="btn_gradient">Change gradient</button>
-                        <button onclick="changeOpacity()" id="btn_opacity">Change opacity</button>
-                    </div>
-
-    </section>
-    -->
+    </header>
 
 
     <!--
@@ -303,16 +120,46 @@
         </div>
 
         -->
-    
+
+
+
+
+
     <!-- Services Section -->
+    <section id="heatmap">
+        </div>
+        <div class="container">
+
+            <div id="map-canvas"></div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Quem votou?</h2>
+                    <h3 class="section-subheading text-muted">Coletamos dados do <a href="http://qmrepresenta.com.br/"> Quem me representa?</a></h3>
+                </div>
+            </div>
+
+            <div id="heatmapfig" >
+                <img src="img/heatmap.png">
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+
     <section id="services">
         <div class="container">
+
+            <div id="map-canvas"></div>
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Quem votou?</h2>
                     <h3 class="section-subheading text-muted">Coletamos dados do http://qmrepresenta.com.br/</h3>
                 </div>
             </div>
+
             <div class="row text-center">
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -341,6 +188,7 @@
             </div>
         </div>
     </section>
+
 
     <!-- Portfolio Grid Section -->
     <section id="portfolio" class="bg-light-gray">
