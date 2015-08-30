@@ -1,0 +1,132 @@
+[
+    {
+        "values": [
+            {
+                "value": 0.775500992959018, 
+                "label": "Voto Facultativo"
+            }, 
+            {
+                "value": 0.713847264849251, 
+                "label": "Reeleição"
+            }, 
+            {
+                "value": 0.704007943672143, 
+                "label": "Coincidência reeleição"
+            }, 
+            {
+                "value": 0.638021303484383, 
+                "label": "Voto impresso"
+            }, 
+            {
+                "value": 0.594601913702834, 
+                "label": "Pensão"
+            }, 
+            {
+                "value": 0.590178732623217, 
+                "label": "Tempo Mandato"
+            }, 
+            {
+                "value": 0.574562195342119, 
+                "label": "Seguro Desemprego"
+            }, 
+            {
+                "value": 0.566167178191009, 
+                "label": "Distritao"
+            }, 
+            {
+                "value": 0.464524282361437, 
+                "label": "Cota para mulheres legislativo"
+            }, 
+            {
+                "value": 0.404405127279292, 
+                "label": "Maioridade 1"
+            }, 
+            {
+                "value": 0.396280917133057, 
+                "label": "Terceirização"
+            }, 
+            {
+                "value": 0.378678461816212, 
+                "label": "Maioridade 2"
+            }, 
+            {
+                "value": 0.290034302220617, 
+                "label": "Financiamento privado para partidos"
+            }, 
+            {
+                "value": 0.209514352771258, 
+                "label": "Financiamento privado para partidos e candidatos"
+            }, 
+            {
+                "value": 0.170969489077451, 
+                "label": "Transgênico"
+            }
+        ], 
+        "key": "S"
+    }, 
+    {
+        "values": [
+            {
+                "value": -0.829030510922549, 
+                "label": "Transgênico"
+            }, 
+            {
+                "value": -0.790485647228742, 
+                "label": "Financiamento privado para partidos e candidatos"
+            }, 
+            {
+                "value": -0.709965697779383, 
+                "label": "Financiamento privado para partidos"
+            }, 
+            {
+                "value": -0.621321538183788, 
+                "label": "Maioridade 2"
+            }, 
+            {
+                "value": -0.603719082866944, 
+                "label": "Terceirização"
+            }, 
+            {
+                "value": -0.595594872720708, 
+                "label": "Maioridade 1"
+            }, 
+            {
+                "value": -0.535475717638563, 
+                "label": "Cota para mulheres legislativo"
+            }, 
+            {
+                "value": -0.433832821808991, 
+                "label": "Distritao"
+            }, 
+            {
+                "value": -0.425437804657881, 
+                "label": "Seguro Desemprego"
+            }, 
+            {
+                "value": -0.409821267376783, 
+                "label": "Tempo Mandato"
+            }, 
+            {
+                "value": -0.405398086297166, 
+                "label": "Pensão"
+            }, 
+            {
+                "value": -0.361978696515617, 
+                "label": "Voto impresso"
+            }, 
+            {
+                "value": -0.295992056327857, 
+                "label": "Coincidência reeleição"
+            }, 
+            {
+                "value": -0.286152735150749, 
+                "label": "Reeleição"
+            }, 
+            {
+                "value": -0.224499007040982, 
+                "label": "Voto Facultativo"
+            }
+        ], 
+        "key": "N"
+    }
+]

@@ -21,7 +21,7 @@ lista_votacoes = mapa['results']
 
 for votacao in lista_votacoes:
 
-    if 'posicao' in votacao and votacao['posicao'] != None:
+    #if 'posicao' in votacao and votacao['posicao'] != None:
         posicao = votacao['posicao']
         lat = posicao['latitude']
         lon = posicao['longitude']

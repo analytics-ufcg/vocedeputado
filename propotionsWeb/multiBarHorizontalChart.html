@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="nv.d3.css" rel="stylesheet" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.min.js" charset="utf-8"></script>
+    <script src="nv.d3.js"></script>
+    <script src="stream_layers.js"></script>
+
+    <style>
+        text {
+            font: 12px sans-serif;
+        }
+        svg {
+            display: block;
+        }
+        html, body, #chart1, svg {
+            margin: 0px;
+            padding: 0px;
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<div id="chart1" class='with-3d-shadow with-transitions'>
+    <svg></svg>
+</div>
+
+<script>
+<!---->
+    var long_short_data = [
+        {
+            "values": [
+                {
+                    "value": 0.775500992959018,
+                    "label": "Voto Facultativo"
+                },
+                {
+                    "value": 0.713847264849251,
+                    "label": "Reeleição"
+                },
+                {
+                    "value": 0.704007943672143,
+                    "label": "Coincidência reeleição"
+                },
+                {
+                    "value": 0.638021303484383,
+                    "label": "Voto impresso"
+                },
+                {
+                    "value": 0.594601913702834,
+                    "label": "Pensão"
+                },
+                {
+                    "value": 0.590178732623217,
+                    "label": "Tempo Mandato"
+                },
+                {
+                    "value": 0.574562195342119,
+                    "label": "Seguro Desemprego"
+                },
+                {
+                    "value": 0.566167178191009,
+                    "label": "Distritao"
+                },
+                {
+                    "value": 0.464524282361437,
+                    "label": "Cota para mulheres legislativo"
+                },
+                {
+                    "value": 0.404405127279292,
+                    "label": "Maioridade 1"
+                },
+                {
+                    "value": 0.396280917133057,
+                    "label": "Terceirização"
+                },
+                {
+                    "value": 0.378678461816212,
+                    "label": "Maioridade 2"
+                },
+                {
+                    "value": 0.290034302220617,
+                    "label": "Financiamento privado para partidos"
+                },
+                {
+                    "value": 0.209514352771258,
+                    "label": "Financiamento privado para partidos e candidatos"
+                },
+                {
+                    "value": 0.170969489077451,
+                    "label": "Transgênico"
+                }
+            ],
+            "key": "S"
+        },
+        {
+            "values": [
+                {
+                    "value": -0.829030510922549,
+                    "label": "Transgênico"
+                },
+                {
+                    "value": -0.790485647228742,
+                    "label": "Financiamento privado para partidos e candidatos"
+                },
+                {
+                    "value": -0.709965697779383,
+                    "label": "Financiamento privado para partidos"
+                },
+                {
+                    "value": -0.621321538183788,
+                    "label": "Maioridade 2"
+                },
+                {
+                    "value": -0.603719082866944,
+                    "label": "Terceirização"
+                },
+                {
+                    "value": -0.595594872720708,
+                    "label": "Maioridade 1"
+                },
+                {
+                    "value": -0.535475717638563,
+                    "label": "Cota para mulheres legislativo"
+                },
+                {
+                    "value": -0.433832821808991,
+                    "label": "Distritao"
+                },
+                {
+                    "value": -0.425437804657881,
+                    "label": "Seguro Desemprego"
+                },
+                {
+                    "value": -0.409821267376783,
+                    "label": "Tempo Mandato"
+                },
+                {
+                    "value": -0.405398086297166,
+                    "label": "Pensão"
+                },
+                {
+                    "value": -0.361978696515617,
+                    "label": "Voto impresso"
+                },
+                {
+                    "value": -0.295992056327857,
+                    "label": "Coincidência reeleição"
+                },
+                {
+                    "value": -0.286152735150749,
+                    "label": "Reeleição"
+                },
+                {
+                    "value": -0.224499007040982,
+                    "label": "Voto Facultativo"
+                }
+            ],
+            "key": "N"
+        }
+    ]
+//    var long_short_data = [
+//        {
+//            key: 'Series1',
+//            values: [
+//                {
+//                    "label" : "Group A" ,
+//                    "value" : -1.8746444827653
+//                } ,
+//                {
+//                    "label" : "Group B" ,
+//                    "value" : -8.0961543492239
+//                } ,
+//                {
+//                    "label" : "Group C" ,
+//                    "value" : -0.57072943117674
+//                } ,
+//                {
+//                    "label" : "Group D" ,
+//                    "value" : -2.4174010336624
+//                } ,
+//                {
+//                    "label" : "Group E" ,
+//                    "value" : -0.72009071426284
+//                } ,
+//                {
+//                    "label" : "Group F" ,
+//                    "value" : -2.77154485523777
+//                } ,
+//                {
+//                    "label" : "Group G" ,
+//                    "value" : -9.90152097798131
+//                } ,
+//                {
+//                    "label" : "Group H" ,
+//                    "value" : 14.91445417330854
+//                } ,
+//                {
+//                    "label" : "Group I" ,
+//                    "value" : -3.055746319141851
+//                }
+//            ]
+//        },
+//        {
+//            key: 'Series2',
+//            values: [
+//                {
+//                    "label" : "Group A" ,
+//                    "value" : 25.307646510375
+//                } ,
+//                {
+//                    "label" : "Group B" ,
+//                    "value" : 16.756779544553
+//                } ,
+//                {
+//                    "label" : "Group C" ,
+//                    "value" : 18.451534877007
+//                } ,
+//                {
+//                    "label" : "Group D" ,
+//                    "value" : 8.6142352811805
+//                } ,
+//                {
+//                    "label" : "Group E" ,
+//                    "value" : 7.8082472075876
+//                } ,
+//                {
+//                    "label" : "Group F" ,
+//                    "value" : 5.259101026956
+//                } ,
+//                {
+//                    "label" : "Group G" ,
+//                    "value" : 7.0947953487127
+//                } ,
+//                {
+//                    "label" : "Group H" ,
+//                    "value" : 8
+//                } ,
+//                {
+//                    "label" : "Group I" ,
+//                    "value" : 21
+//                }
+//            ]
+//        }
+//    ];
+
+
+    var chart;
+    nv.addGraph(function() {
+        chart = nv.models.multiBarHorizontalChart()
+            .x(function(d) { return d.label })
+            .y(function(d) { return d.value })
+//            .yErr(function(d) { return [-Math.abs(d.value * Math.random() * 0.3), Math.abs(d.value * Math.random() * 0.3)] })
+            .barColor(d3.scale.category20().range())
+            .duration(250)
+            .margin({left: 100})
+            .stacked(true);
+
+        chart.yAxis.tickFormat(d3.format(',.2f'));
+
+        chart.yAxis.axisLabel('Y Axis');
+        chart.xAxis.axisLabel('X Axis').axisLabelDistance(20);
+
+        d3.select('#chart1 svg')
+            .datum(long_short_data)
+            .call(chart);
+
+        nv.utils.windowResize(chart.update);
+
+        chart.dispatch.on('stateChange', function(e) { nv.log('New State:', JSON.stringify(e)); });
+        chart.state.dispatch.on('change', function(state){
+            nv.log('state', JSON.stringify(state));
+        });
+        return chart;
+    });
+
+</script>
+</body>
+</html>

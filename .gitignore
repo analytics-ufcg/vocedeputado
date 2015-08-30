@@ -1,3 +1,7 @@
 .Rproj.user
 .Rhistory
 .RData
+.idea
+*~
+data/output1.csv
+data/Resposta.json
