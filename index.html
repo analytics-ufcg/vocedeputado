@@ -130,17 +130,6 @@
     </header>
 
 
-    <!--
-        <div id="map-canvas"></div>
-        <div id="panel">
-        <button onclick="toggleHeatmap()" id="toogle">Show Circles</button>
-        <button onclick="changeRadius()">+</button>
-        <button onclick="changeRadius1()">-</button>
-        <button onclick="changeGradient()" id="btn_gradient">Change gradient</button>
-        <button onclick="changeOpacity()" id="btn_opacity">Change opacity</button>
-        </div>
-
-        -->
     <!-- Services Section -->
     <section id="heatmap">
         </div>
@@ -150,15 +139,18 @@
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Quem votou?</h2>
                     <h3 class="section-subheading text-muted">Coletamos dados do <a href="http://qmrepresenta.com.br/"> Quem me representa?</a>.</h3>
-                    <h3 class="section-subheading text-muted">Mais de XK pessoas votaram em 18 temas Coletamos dados do <a href="http://qmrepresenta.com.br/"> Quem me representa?</a>.</h3>
-                </div>
+                    <h3 class="section-subheading text-muted">Mais de <font size="6"> 11.000</font> pessoas votaram em <font size="6"> 16 </font> temas que estiveram sob análise na Câmara dos Deputados em 
+                        <font size="6"> 2015</font>.
+                        <p>
+                        No geral, coletamos votos de todas as regiões do país. Contudo, como podemos ver no gráfico abaixo, grande parte dos votos concentra-se em São Paulo, Rio de Janeiro, Brasília, Recife, Campina Grande e
+                        nas capitais da região sul.
+                        </p>
+                    </h3>        
             </div>
 
             <div id="heatmapfig" >
                 <img src="img/heatmap.png">
             </div>
-
-
 
         </div>
 
@@ -172,7 +164,11 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Deputados mais representativos?</h2>
-                    <h3 class="section-subheading text-muted">Deputados que mais concordam com os eleitores.</h3>
+                    <h3 class="section-subheading text-muted">Deputados que mais concordam com os eleitores. </h3>
+                    <h3 class="section-subheading text-muted"> Calculamos a similaridade entre os votos do povo e os votos dos deputados.
+                        O deputado cujos votos mais se aproximam dos usuários do QMR é o paraibano Damião Feliciano do PDT.</h3> 
+                    <h3 class="section-subheading text-muted"> Entre os top 10 deputados mais "representativos", 
+                         5 são deputados do PT.</h3>
                 </div>
             </div>
 
@@ -196,6 +192,7 @@
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Partidos mais representativos?</h2>
                     <h3 class="section-subheading text-muted">Partidos que mais concordam com os eleitores.</h3>
+                    <h3 class="section-subheading text-muted">Os partidos que mais representam os brasileiros que votaram são: PT, PMDB, PC do B, PSB e PSD.</h3>
                 </div>
             </div>
 
@@ -219,6 +216,9 @@
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Qual o posicionamento dos brasileiros?</h2>
                     <h3 class="section-subheading text-muted">Os votos dos brasileiros para cada tema.</h3>
+                    <h3 class="section-subheading text-muted">Como destaque, notamos que o brasileiro é inclinado a aprovar o voto facultativo e fim da reeleição. Por outro lado, tende a 
+                        rejeitar o financiamento privado de campanhas, a redução da maioridade penal e a retirada de informações a respeito de alimentos transgênicos 
+                        nas embalagens produtos.</h3>
                 </div>
             </div>
 
@@ -405,7 +405,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Qual o posicionamento político do brasileiro?</h2>
-                    <h3 class="section-subheading text-muted">Onde a opnião média dos brasileiros se posiciona no <a href="http://houseofcunha.com.br/">House of Cunha</a>.</h3>
+                    <h3 class="section-subheading text-muted">Onde a opinião média dos brasileiros se posiciona no <a href="http://houseofcunha.com.br/">House of Cunha</a>.</h3>
                 </div>
             </div>
 
@@ -420,185 +420,6 @@
     </section>
 
 
-    <!-- Portfolio Grid Section 
-    <section id="portfolio" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Round Icons</h4>
-                        <p class="text-muted">Graphic Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Startup Framework</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Treehouse</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/golden.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Golden</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/escape.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Escape</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/dreams.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Dreams</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    -->
-    <!-- About Section 
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>2009-2011</h4>
-                                    <h4 class="subheading">Our Humble Beginnings</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>March 2011</h4>
-                                    <h4 class="subheading">An Agency is Born</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>December 2012</h4>
-                                    <h4 class="subheading">Transition to Full Service</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>July 2014</h4>
-                                    <h4 class="subheading">Phase Two Expansion</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <h4>Be Part
-                                    <br>Of Our
-                                    <br>Story!</h4>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    -->
     <!-- Team Section -->
     <section id="team" class="bg-light-gray">
         <div class="container">
